@@ -1,0 +1,10 @@
+SELECT USER(), CURRENT_USER(), @@hostname, @@port, DATABASE();
+```
+
+This command will display the following information:
+
+- The current MySQL user
+- The MySQL user that was used to establish the current connection
+- The server hostname or IP address
+- The server port number
+- The current database
